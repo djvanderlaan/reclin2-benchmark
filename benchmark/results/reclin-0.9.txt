@@ -1,0 +1,34 @@
+keep_frac=0.9
+npairs=487692652
+Confusion matrix
+       true
+select      FALSE      TRUE
+  FALSE 487672051        85
+  TRUE        416     20100
+
+nerrors=501
+precision=0.9797231
+recall=0.995789
+	Command being timed: "Rscript reclin.R 0.9"
+	User time (seconds): 860.55
+	System time (seconds): 368.55
+	Percent of CPU this job got: 120%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:02.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 122052668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 264933689
+	Voluntary context switches: 303382
+	Involuntary context switches: 28765
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
